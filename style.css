@@ -6,23 +6,27 @@ body{
 }
 
 .site-name{
+    /*all h1 text center এ করা*/
     text-align: center;
 }
 .different-heading-color{
+    /*h3 sapn ভিতর এর text color*/
     color: green;
 }
 
 #top-heading{
+    /*1st h1 এর left blue দাগ*/
     border-left: 5px solid blue;
 }
 .upper-part{
+    /*No-1 কে পাশাপাশি করা*/
     display: flex;
+    /* main page এর সব দিক থেকে 5% চাপানো*/
     margin: 5%;
 }
 
-.upper-part-details{
+.upper-part-details{    
     width: 50%;
-    padding: 2%;
 }
 .anchor-button{
     /*normal buy text underline বাধ দেওয়া*/
@@ -38,22 +42,29 @@ body{
 }
 
 .upper-image{
-    margin: 50px;
+    /*নিজের border থেকে up+bottom(70px) and right+left(120px)চাপা*/
+    padding: 70px 120px;
 }
 
 .shadow-part{
+    /*৩টা এক লাইনে আনা*/
     display: flex;
 }
 
 .shadow-image{
+
     border-radius: 8px;
+    /*নিজের border থেকে up+bottom, right+left(5px)চাপা*/
     padding: 5px;
     width: 250px;
     height: 150px;
 }
 .shadow{
-    margin: 15px;
+    /* প্রতেক টার একটি থেকে অন্যটির এর সব দিক থেকে 20px চাপানো*/
+    margin: 20px;
+    /*shadow দেয়া*/
     box-shadow: 5px 5px 5px 5px;
+    /*নিজের border থেকে 4% চাপানো*/
     padding: 4%;
     border-radius: 8px;
     width: 350px;
