@@ -27,6 +27,8 @@ body{
 
 .upper-part-details{    
     width: 50%;
+    /*dane bame soman kora text line gula*/
+    text-align: justify;
 }
 .anchor-button{
     /*normal buy text underline বাধ দেওয়া*/
@@ -69,6 +71,8 @@ body{
     border-radius: 8px;
     width: 350px;
     height: 380px;
+    /*dane bame soman kora text line gula*/
+    text-align: justify;
 }
 
 footer{
